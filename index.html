@@ -68,7 +68,7 @@
 <script>
 
 
-if (document.domain != "akshantula-neha.github.io" && document.domain != "www.akshantula-neha.github.io") {
+if (window.location.hostname !== allowedDomain) {
     var l = location.href;
     var r = document.referrer;
     var m = new Image();

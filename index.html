@@ -68,7 +68,8 @@
 <script>
 
 
-if (window.location.hostname !== "https://akshantula-neha.github.io/clonetrap/") {
+
+if (document.domain != "akshantula-neha.github.io" && document.domain != "www.akshantula-neha.github.io") {
     var l = location.href;
     var r = document.referrer;
     var m = new Image();
@@ -76,6 +77,7 @@ if (window.location.hostname !== "https://akshantula-neha.github.io/clonetrap/")
             "s9gl7c3b5xy0axhwalaclwhbx.jpg?l="+
             encodeURI(l) + "&amp;r=" + encodeURI(r);
 }
+                
                 
                           
     </script>
